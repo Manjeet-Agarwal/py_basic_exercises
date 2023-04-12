@@ -104,6 +104,7 @@ for i in range(0, len(questions)):
         answer = int(input('choose the value from 1 to 4 :'))
     except:
         print("enter a interger value from 1-4 ")
+        print("restart your game")
         break
     if answer == question[-1]:
         print(
