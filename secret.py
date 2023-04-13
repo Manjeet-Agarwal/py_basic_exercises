@@ -1,7 +1,5 @@
 user_input= int(input("what you want to do with message\n1.Encoding\n2.Decoding:\nchoose the option number: "))
 
-if user_input!=1 and user_input!=2:
-    print("enter valid choice")
 en_output=[]
 de_output=[]
 def encoding():
@@ -32,3 +30,5 @@ if user_input==1:
     encoding()
 elif user_input==2:
     decoding()
+else:
+    print("chhose 1 or 2 only ")
